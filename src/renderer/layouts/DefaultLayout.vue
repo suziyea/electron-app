@@ -27,6 +27,10 @@
           <el-icon><House /></el-icon>
           <template #title>首页</template>
         </el-menu-item>
+        <el-menu-item index="/editor">
+          <el-icon><Edit /></el-icon>
+          <template #title>代码编辑器</template>
+        </el-menu-item>
       </el-menu>
 
       <!-- 折叠按钮 -->
@@ -62,7 +66,7 @@
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 import { useAppStore } from '@/stores/app';
-import { House, Monitor, Expand, Fold } from '@element-plus/icons-vue';
+import { House, Monitor, Expand, Fold, Edit } from '@element-plus/icons-vue';
 
 const route = useRoute();
 const appStore = useAppStore();
