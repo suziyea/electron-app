@@ -11,12 +11,6 @@ const routes = [
         component: () => import('@/views/HomeView.vue'),
         meta: { title: '首页' },
       },
-      {
-        path: 'editor',
-        name: 'Editor',
-        component: () => import('@/views/EditorView.vue'),
-        meta: { title: '代码编辑器' },
-      },
     ],
   },
 ];

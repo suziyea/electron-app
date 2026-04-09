@@ -27,10 +27,6 @@
           <el-icon><House /></el-icon>
           <template #title>首页</template>
         </el-menu-item>
-        <el-menu-item index="/editor">
-          <el-icon><Edit /></el-icon>
-          <template #title>代码编辑器</template>
-        </el-menu-item>
       </el-menu>
 
       <!-- 折叠按钮 -->
